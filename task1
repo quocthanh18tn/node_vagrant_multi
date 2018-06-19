@@ -1,0 +1,37 @@
+- download virtualbox linux 64bit
+- download vagrant debian
+- download ansible
+by dpkg
+- fshare download learning vagrant 2018.zip, ansible essential training, ultimate ansbile bootcamp by school of develops
+hoc vagrant : tao repository , git readme, gitignore, push len, vo terminal, 
+( neu co nhieu file git, muon lam dep 
+ git reset @~2
+git commit --amen --no-edit 
+git push -f -u origin master)
+vagrant init bento/ubuntu-16.04
+vagrant up
+( cai dat goi .deb
+sudo dpkg -i <ten>
+sudo apt-get remove <ten>
+which <ten> //ra duong dna
+sudo rm -rf/duongdan
+)
+vagrant ssh
+vagrant halt
+
+
+
+vagrant up // start 
+vagrant halt // sleep
+vagrant destroy // xoa all VM
+vagrant destroy id // xoa 1 cai VM
+vagrant global-status  
+vagrant ssh // tao ra may ao ubuntu     . no khac docker : docker : chiem process ; Vagrant : chiem ram , rom
+
+
+uname -a // xem trang thai cua vagrant chay tren nen tang gi
+
+/* multi box */
+
+
+mkdir -p  <tenfolder>/{<tenfile>,<tenfile>,tenfile>}  // tao ra 1 folder co 3 file
