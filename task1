@@ -34,4 +34,14 @@ uname -a // xem trang thai cua vagrant chay tren nen tang gi
 /* multi box */
 
 
-mkdir -p  <tenfolder>/{<tenfile>,<tenfile>,tenfile>}  // tao ra 1 folder co 3 file
+mkdir -p  <tenfolder>/{<tenfolder>,<tenfolder>,<tenfolder>}  // tao ra 1 folder co 3 folder
+
+
+
+trong 3 foler tao 3 file readmd.sh
+
+
+
+
+
+
